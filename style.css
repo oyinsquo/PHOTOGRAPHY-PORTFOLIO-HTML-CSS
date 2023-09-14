@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.slides{
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    background: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+}
+#slide1{
+    height: 100vh;
+    width: 100%; 
+    display: flex;     
+}
+.leftbox{
+   flex-basis: 50%;
+   flex-grow: 1;
+   text-align: center;
+   color: black;
+   background: #f2f2f2;
+}
+.heading{
+    margin-top: 25vh;
+    font-size: 50px;
+    font-weight: 200px;
+    padding: 15px;
+}
+.text{
+    text-align: justify;
+    padding: 5px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.icon{
+    margin-right:10px;
+}
+.leftbox h3{
+    margin-left:20px;
+}
+.leftbox button{
+    width: 150px;
+    height: 33px;
+    margin-top: 100px;
+    margin-left: 50px;
+    float: left;
+    background: transparent;
+    color: black;
+}
+.leftbox button:hover{
+    background: rgb(221, 215, 215);
+    
+}
+.rightbox{
+    flex-basis: 50%;
+    flex-grow: 0;
+}
+.rightbox img{
+    height: 100%;
+    width: 100%;
+}
+.slide2{
+    height: 100vh;
+    width: 100%; 
+    display: flex;     
+}
+.left{
+    width: 50%;
+    flex-grow: 0;
+    text-align: center;
+    color: black;
+    background: #f2f2f2;
+}
+.head{
+    margin-top:15vh;
+    margin-left: 50px;
+    font-size: 50px;
+    font-weight: 200px;
+    padding: 15px;
+    text-align: left;
+}
+.head h3{
+    font-weight:1;
+    font-size: 30px;
+}
+.head h2{
+    font-weight: 100px;
+    font-size: 40px;
+}
+.lefttext p{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;   
+    padding: 10px;
+    font-size: 18px;
+}
+.right{
+    width: 50%;
+    flex-grow: 0;
+    background: #f2f2f2;
+}
+.right img{
+    margin-top: 5%;
+    height: 90%;
+    width: 98%;
+}
+.slide3{
+    height: 100vh;
+    width: 100%;      
+    display: flex;
+    background: #f2f2f2;
+}
+.leftside{
+    width: 35%;
+}     
+.card1{
+    margin-left: 10px;
+    margin-top: 5%;
+    height: 95%;
+    position: relative;
+    transition: transform 1s;
+	transform-style: preserve-3d;
+}
+.front1{
+    background: url(food3.jpg);
+	background-size: cover;
+	background-position: center;
+	justify-content: flex-end;
+    
+}
+.back1{
+    background: url(food3b.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+}
+.front1, .back1{
+    width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+    position: absolute;
+}
+.leftside:hover .card1{
+    transform: rotateY(180deg);
+}
+.center{
+    width: 30%;
+    height: 60%;
+}
+.card2{
+    margin-left: 10px;
+    margin-top: 5%;
+    height: 95%;
+    position: relative;
+    transition: transform 1s;
+	transform-style: preserve-3d;
+}
+.front2{
+    background: url(food3c.jpg);
+	background-size: cover;
+	background-position: center;
+	justify-content: flex-end;  
+}
+.back2{
+    background: url(food3d.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+}
+.front2, .back2{
+    width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+    position: absolute;
+}
+.center:hover .card2{
+    transform: rotateY(180deg);
+}
+.centerdown{
+    height: 65%;
+    width:40;
+}
+.card3{
+    margin-left: 10px;
+    margin-top: 3%;
+    height: 94%;
+    position: relative;
+    transition: transform 1s;
+	transform-style: preserve-3d;
+}
+.front3{
+    background: url(food3e.jpg);
+	background-size: cover;
+	background-position: center;
+	justify-content: flex-end;  
+}
+.back3{
+     background: url(food3f.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+}
+.front3, .back3{
+    width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+    position: absolute;
+}
+.center:hover .card2{
+    transform: rotateY(180deg);
+}
+.centerdown:hover .card3{
+    transform: rotateY(180deg);
+}
+.rightside{
+    width: 35%;
+    color: black;
+    margin-top: 20vh;
+    margin-left: 13%;
+    font-size: 25px;
+}
+.slide4{
+    flex-grow: 0;
+    height: 100vh;    
+    background-image: url(food6.jpg) ;
+    background-size: cover;
+}
+.note2{
+    padding-top: 10vh;
+    margin-left: 70%;
+    font-size: 19px;
+}
+#slide5{
+    flex-grow: 0;
+    height: 100vh;    
+    background-image: url(food7.jpg) ;
+    background-size: cover;
+    
+}
+.box{
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+.p{
+    width: 65%;
+}
+.notepad{
+    margin-left: 65%;
+    margin-top: 5%;
+    margin-right: 30px;
+    height: 95%;
+    width: 35%;
+    background: white;
+}
+.notehead{
+    color: black;
+    margin-top: 20vh;
+    margin-left: 25%;
+}
+.notehead h2{
+    margin-bottom: 10px;
+}
+.notehead p{
+    margin-top: 1px;
+}
+.notepad button{
+    width: 150px;
+    height: 33px;
+    margin-top: 100px;
+    margin-left: 25%;
+    float: left;
+    background: transparent;
+    color: black;
+}
+.notepad button:hover{
+    background: rgb(238, 228, 228);
+    
+}
