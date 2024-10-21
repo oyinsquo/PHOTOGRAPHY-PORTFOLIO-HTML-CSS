@@ -24,7 +24,7 @@
     display: flex;     
 }
 .leftbox{
-   flex-basis: 70%;
+   flex-basis: 60%;
    flex-grow: 1;
    text-align: center;
    color: black;
