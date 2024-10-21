@@ -26,7 +26,7 @@
 .leftbox{
    flex-basis: 100%;
    width: 100%;
-   float: left;	
+  	
    flex-grow: 0;
    text-align: center;
    color: black;
@@ -69,7 +69,7 @@
 }
 .rightbox img{
     height: 100%;
-    width: 50%;
+    width: 100%;
 }
 .slide2{
     height: 100vh;
