@@ -25,6 +25,7 @@
 }
 .leftbox{
    flex-basis: 90%;
+   float: left;	
    flex-grow: 1;
    text-align: center;
    color: black;
