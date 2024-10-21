@@ -24,7 +24,7 @@
     display: flex;     
 }
 .rightbox{
-   flex-basis: 100%;
+   flex-basis: 50%;
    width: 100%;
    flex-grow: 0;
    text-align: center;
