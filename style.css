@@ -24,7 +24,7 @@
     display: flex;     
 }
 .leftbox{
-   flex-basis: 50%;
+   flex-basis: 100%;
    width: 100%;
    float: left;	
    flex-grow: 0;
